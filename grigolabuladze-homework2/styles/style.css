@@ -1,0 +1,61 @@
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.active{
+    color: orangered;
+}
+
+.f-color{
+    color: #14203E;
+}
+
+.nav-link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 71.94px;
+}
+
+.title-desc, .about-text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28.6px;
+}
+
+.post-sep-title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+
+.post-title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 23.98px;
+}
+
+.post-date{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+
+.post-card{
+    display: inline-block;
+    width: 291px;
+    vertical-align: top;
+}
+
+.contact-text{
+    font-weight: bold;
+}

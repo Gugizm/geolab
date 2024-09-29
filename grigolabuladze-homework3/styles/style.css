@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #14203E;
+  }
+
+.active{
+    color: rgb(29, 5, 245);
+}
+
+/* .f-color{
+    color: #14203E;
+} */
+
+header{
+    height: 99px;
+    padding: 25px 42px;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin: auto 0px;
+}
+
+.nav{
+    display: inline-block;
+    margin: auto 0px auto 388px; /* ვითვალისწინებ nav-item-ის margin-ს (სანამ flexbox-ს გავივლით)*/
+}
+
+.nav-item, .log-in, .free-trail, .section-free-trail{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: auto 0px auto 56px;
+}
+
+.header-buttons{
+    display: inline-block;
+    margin-left: 199px;
+}
+
+.log-in, .free-trail{
+    display: inline-block;
+    padding: 13px 30px;
+    border-radius: 10px;
+}
+
+.log-in{
+    background-color: #F6F0E8;
+}
+
+.free-trail{
+    margin-left: 15px;
+    background-color: #14203E;
+    color: #FFFFFF;
+
+}
+
+.main-section{
+    height: 644px;
+    padding: 128px 500px 170px 500px;
+    background-color: #FFFCF8;
+    text-align: center;
+    border-top: 1px solid #F4E8D8;
+    border-bottom: 1px solid #F4E8D8;
+
+}
+
+h1{
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 71.94px;
+}
+
+.title-desc{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28.6px;
+}
+
+.section-free-trail{
+    display: inline-block;
+    background-color: #14203E;
+    color: #FFFFFF;
+    padding: 25px 40px;
+    margin-top: 41px;
+    border-radius: 10px;
+}
+
+.post-section{
+    height: 496px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+.post-sep-title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.2px;
+    margin-bottom: 30px;
+}
+
+.post-card{
+    display: inline-block;
+    width: 291px;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.post-title{
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 23.98px;
+}
+
+.post-date{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    text-align: left;
+}
+
+.copyrights{
+    margin-left: 20px;
+}
