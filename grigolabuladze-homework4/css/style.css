@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 93px 0px 93px;
+}
+
+.logo {
+  margin: 0px 0px;
+}
+
+nav {
+  display: inline-block;
+  margin: 16px 0px 0px 117px;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.42px;
+  color: #ffffff;
+  margin: 0px 0px 0px 50px;
+}
+
+.authentication {
+  display: inline-block;
+  margin-left: 141px;
+}
+
+.sign-in {
+  color: #ffffff;
+  font-weight: 700;
+  size: 14px;
+  line-height: 16.42px;
+  text-decoration: underline;
+  margin-right: 33px;
+}
+
+.sign-up {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.42px;
+  color: #ffffff;
+  padding: 16px 25px;
+  background: linear-gradient(to right, #cd1a40, #ff803c);
+  border-radius: 18px;
+}
+
+.cover-sec {
+  margin-top: 142px;
+  width: 580px;
+  height: 415px;
+}
+
+h1 {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 86px;
+  line-height: 100.88px;
+  color: #ffffff;
+}
+
+.cover-sec {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.pretty-title {
+  font-family: "Water Brush", cursive;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 66.7px;
+  color: #ffffff;
+}
+
+.p-colored {
+  color: #cd1a40;
+}
+
+.destination {
+  margin: 76px 93px;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 75.07px;
+  color: #1e1e1e;
+  margin-top: 8px;
+}
+
+.des-left-card,
+.des-right-card {
+  display: inline-block;
+  width: 580px;
+  height: 626px;
+  margin-top: 36px;
+  vertical-align: top;
+}
+
+.des-left-card {
+  background-image: linear-gradient(
+      rgba(30, 30, 30, 0.56),
+      rgba(30, 30, 30, 0.56)
+    ),
+    url("../images/malaysia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 252px 206px;
+  margin-right: 20px;
+}
+
+.card-button {
+  display: inline-block;
+  background: linear-gradient(to right, #cd1a40, #ff803c);
+  color: #ffffff;
+  padding: 16px 17px;
+  border-radius: 18px;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.42px;
+}
+
+.des-right-small-card {
+  display: inline-block;
+  width: 280px;
+  height: 306px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 91px 87px;
+}
+
+.dubai {
+  background-image: linear-gradient(
+      rgba(30, 30, 30, 0.56),
+      rgba(30, 30, 30, 0.56)
+    ),
+    url("../images/dubai.jpg");
+  float: left;
+}
+
+.greece {
+  background-image: linear-gradient(
+      rgba(30, 30, 30, 0.56),
+      rgba(30, 30, 30, 0.56)
+    ),
+    url("../images/greece.jpg");
+  float: right;
+}
+
+.des-right-larg-card {
+  display: inline-block;
+  width: 100%;
+  height: 306px;
+  background-image: linear-gradient(
+      rgba(30, 30, 30, 0.56),
+      rgba(30, 30, 30, 0.56)
+    ),
+    url("../images/singapore.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 91px 87px 0px 87px;
+  margin-top: 14px;
+}
+
+.more {
+  display: block;
+  margin-top: 36px;
+}
+
+.tour-more {
+  display: inline-block;
+  background: linear-gradient(to right, #cd1a40, #ff803c);
+  color: #ffffff;
+  padding: 19px 20px;
+  border-radius: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.42px;
+}
+.activity {
+  margin: 76px 0px;
+  text-align: center;
+  padding: 0px 93px;
+}
+
+.act-title {
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 75.07px;
+  color: #1e1e1e;
+  margin-top: 18px;
+}
+
+.act-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1e1e1e;
+  margin: 18px 293px 36px 293px;
+}
+
+.card {
+  display: inline-block;
+  width: 378px;
+  height: 412px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #cd1a40, #ff803c);
+  padding: 56px 33px 38px 33px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 24px;
+}
+
+.card-white {
+  display: inline-block;
+  width: 378px;
+  height: 412px;
+  border-radius: 6px;
+  background-color: #fff9f0;
+  padding: 56px 33px 38px 33px;
+  text-align: center;
+  color: #999999;
+  margin-right: 24px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 38px 0px 11px 0px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 22px;
+}
