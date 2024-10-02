@@ -93,6 +93,7 @@ h1 {
   backdrop-filter: blur(10px);
   padding: 0px 20px;
   position: relative;
+  font-size: 0px;
 }
 
 .absolute {
@@ -131,6 +132,7 @@ h1 {
 }
 .splitter {
   display: inline;
+  font-size: 24px;
   margin-right: 60px;
   border: 1px solid white;
   vertical-align: middle;
@@ -326,4 +328,12 @@ h1 {
 .desc {
   font-size: 16px;
   line-height: 22px;
+}
+
+body .atom {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  width: 50px;
+  height: 50px;
 }
