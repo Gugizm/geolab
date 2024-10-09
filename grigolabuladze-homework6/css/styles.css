@@ -72,6 +72,10 @@ header {
   column-gap: 20px;
 }
 
+.gallery-section img {
+  cursor: pointer;
+}
+
 .images-list {
   display: flex;
   flex-direction: column;
@@ -232,4 +236,8 @@ header {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: rgb(123, 37, 110);
 }
