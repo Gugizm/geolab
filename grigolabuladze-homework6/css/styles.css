@@ -166,6 +166,13 @@ header {
   width: 52px;
   height: 52px;
   border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.choice:hover {
+  border-color: #f2d7ee;
 }
 
 .green {
